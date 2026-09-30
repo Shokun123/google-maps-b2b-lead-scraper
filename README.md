@@ -75,6 +75,7 @@ Each result returned in the dataset includes comprehensive company intelligence:
 * **Free Trial:** Test with up to 100 free leads directly in the Apify Console.
 * **Monthly Rental:** $19.00 / month for unlimited runs and team sharing.
 * **Pay-per-result:** $1.00 per 1,000 verified enriched leads.
+* **Direct Crypto Licensing / Custom Enterprise Lists:** Pay via Binance Pay with **Binance UID: `1049392123`** (`User-79a91`) for lifetime access or bespoke verified B2B contact extractions.
 
 ---
 
