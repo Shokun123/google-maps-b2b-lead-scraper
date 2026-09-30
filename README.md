@@ -133,6 +133,15 @@ npx --yes apify-cli push
 
 ---
 
+## 🌐 Complete $0-Overhead Micro-Tools Suite
+
+Explore our complementary high-performance tools:
+* 🛡️ **[LeadRescue AI](https://shokun123.github.io/leadrescue-ai/)** — Interactive Speed-to-Lead ROI Calculator & Instant Inbound Lead Automation.
+* 🔍 **[AI PR Code Reviewer & Security Linter](https://github.com/Shokun123/ai-pr-reviewer-action)** — Automated GitHub Action for Pull Request secret leak detection and OWASP audits.
+* 💳 **Direct Web3 Support:** Binance Pay UID: `1049392123` (`User-79a91`).
+
+---
+
 ## 📄 License
 
 Licensed under the Apache-2.0 License.
