@@ -1,0 +1,35 @@
+{
+  "title": "Google Maps B2B Lead Extractor Settings",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchQuery": {
+      "title": "Search Query / Keyword",
+      "type": "string",
+      "description": "Enter the business niche and city (e.g., 'Dentists in Miami' or 'Marketing Agencies in London').",
+      "editor": "textfield",
+      "prefill": "Marketing agencies in Austin, Texas"
+    },
+    "maxResults": {
+      "title": "Maximum Leads to Extract",
+      "type": "integer",
+      "description": "Maximum number of business contacts to extract.",
+      "default": 50,
+      "minimum": 1,
+      "maximum": 5000
+    },
+    "extractEmailsAndSocials": {
+      "title": "Enrich with Emails & Socials",
+      "type": "boolean",
+      "description": "Deep-crawl the business website to discover public contact emails, LinkedIn, Instagram, and Facebook profiles.",
+      "default": true
+    },
+    "includeReviews": {
+      "title": "Include Rating & Review Count",
+      "type": "boolean",
+      "description": "Extract average star rating and total Google review counts.",
+      "default": true
+    }
+  },
+  "required": ["searchQuery"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "google-maps-b2b-lead-scraper",
+  "version": "1.0.0",
+  "description": "Extract verified B2B leads, business emails, phone numbers, websites, and social links from Google Maps without API keys.",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "apify",
+    "actor",
+    "google-maps",
+    "lead-generation",
+    "b2b",
+    "scraper",
+    "email-extractor",
+    "local-business"
+  ],
+  "author": "Shokun123",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apify": "^3.2.6",
+    "crawlee": "^3.12.2"
+  }
+}
