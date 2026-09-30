@@ -4,9 +4,14 @@
   "description": "Extract verified B2B leads, business emails, phone numbers, websites, and social links from Google Maps without API keys.",
   "main": "src/main.js",
   "type": "module",
+  "bin": {
+    "google-maps-b2b-leads": "./bin/cli.js"
+  },
   "scripts": {
     "start": "node src/main.js",
-    "test": "node --test"
+    "cli": "node bin/cli.js",
+    "generate:samples": "node scripts/generate_sample_packs.js",
+    "test": "node --test test/test_scraper.js"
   },
   "keywords": [
     "apify",
